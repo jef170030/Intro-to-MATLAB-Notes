@@ -9,7 +9,7 @@
 % Useful starting functions: "demo", "help", "lookfor", "doc".
 % Note: "help help" explains how help works.
 % To exit Matlab, type either "quit" or "exit" at the prompt.
-% To run code, use "command + enter".
+% To run a line of code, use "command + enter".
 
 
     % 1.2 - The Matlab Desktop Environment
@@ -41,12 +41,12 @@ mynum = 6 % The variable is called "mynum" and its value is 6. This can be
 res = 9 - 2; % Although this value is not displayed in the Command Window 
              % when the code runs, it IS stored in the Workspace Window.
              
-% Matlab uses a default variable names "ans" if an expression is typed at
+% Matlab uses a default variable name "ans" if an expression is typed at
 % the prompt and is not assigned to a variable. For example:
 
 6 + 3
 
-% "ans" is reused any time when only an expressions, not an assignment
+% "ans" is reused any time when only an expression, not an assignment
 % statement, is typed at the prompt. Note that it is not good practice to
 % use "ans" as a variable name.
 
@@ -84,7 +84,32 @@ num = num - 1 % This decrements the variable "num" by 1.
 
     %  1.3.2 - Variable Names
 
+% They are a type of identifier name (another example of an identifier name
+% would be a function name) and follow these rules:
 
+% 1. The name must begin with a letter, can contain letters, digits, and the
+% underscore character, but cannot have a space!
+    % Example function name: "value_1"
+    
+% 2. The limit to the length of a name is 63. Any extra characters past the
+% 63rd will be truncated:
+
+namelengthmax
+
+% 3. Matlab is case-sensitive
+
+% 4. The underscore character can cause some problems with some programs
+% that interact with Matlab, so using mixed case might be better instead
+% (ie - "partWeights" as a name instead of "part_weights").
+
+% 5. There are certain words called "reserved words", or "keywords", that
+% cannot be used as variable names.
+
+% 6. Names of built-in functions can be used as variable names, but should
+% not
+
+% Note: Variable names should be mnemonic and make sense in the context of
+% the problem being solved.
 
 
 
