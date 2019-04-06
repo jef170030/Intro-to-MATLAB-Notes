@@ -167,7 +167,7 @@ ans
 % the type double by default:
 
 num = 6 - 3;
-class(num) % the function "class" returns the class of the variable
+class(num) % the function "class" returns the class of a variable
 
 % OTHER TYPES: 
 
@@ -176,6 +176,9 @@ class(num) % the function "class" returns the class of the variable
     % characters and strings are enclosed in single quotes.
     
     % 2. "logical" stores true/false values
+    
+    x = -5 : 5
+    sum(x > 5)
     
     
 
