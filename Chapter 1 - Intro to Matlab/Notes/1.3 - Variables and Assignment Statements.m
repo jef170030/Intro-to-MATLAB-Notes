@@ -1,28 +1,5 @@
-                     % 1.1 - Getting into Matlab
 
-% When the Matlab software is started, a window opens in which the main
-% part is the Command Window. The " >> " is called the "prompt".
-
-% The Command Window can be used interactively and Matlab will respond
-% immediately.
-
-% Useful starting functions: "demo", "help", "lookfor", "doc".
-% Note: "help help" explains how help works.
-% To exit Matlab, type either "quit" or "exit" at the prompt.
-% To run a line of code, use "command + enter".
-
-% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ %
-
-               % 1.2 - The Matlab Desktop Environment
-
-% To the left of the Command Window is the Current Folder Window. This is
-% where files will be saved. If a file is selected, then the information
-% about that file will appear at the bottom of that column where it says
-% "Details". On the right is the Workspace Window.
-
-% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ %
-
-              % 1.3 - Variables and Assignment Statements
+              % 1.3 - VARIABLES AND ASSIGNMENT STATEMENTS
 
 % Variables, which are showed in the Workspace Window (along with their
 % corresponding values), can be created using an assignment statement. The
@@ -125,7 +102,6 @@ namelengthmax
 % "clear": clears out all variables so that they no longer exist
 % "clear variablename1": clears out a particular variable
 % "clear variablename1 variablename2": clears out a list of variables
-% (note: separate the names with commas)
 
 % Note: If nothing appears when "who" or "whos" is entered, that means that
 % there are no variables stored:
@@ -178,7 +154,5 @@ class(num) % the function "class" returns the class of a variable
     % 2. "logical" stores true/false values
     
     x = -5 : 5
-    sum(x > 5)
-    
-    
-
+    sum(x > 5)  % summing logical values (either 0's or 1's)
+    sum(x(x>0)) % summing the values that satisfy this condition
