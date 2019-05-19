@@ -68,6 +68,45 @@ format compact
     2 * 10^4
     2e4
     
+               % 1.4.2.1 - Operator Precedence Rules
+               
+% Some operators have "precedence" over others (for example multiplication
+% takes precedence over addition). Using parentheses can change precedence
+% in an expression:
+
+    4 + 5 * 3
+    (4 + 5) * 3
+    
+% So within a given precedence level, the expressions are evaluated left to
+% right (this is called "associativity").
+
+% Nested parentheses are parentheses inside of others. In this case, the
+% expression in the inner parentheses is evaluated first:
+
+    5 - (6 * (4 + 2)) % Note: sometimes parentheses are not always needed
+    
+% For the operators we have covered so far, the order of precedence (from
+% highest to lowest) is:
+
+    % (): parentheses
+    % ^ : exponentiation
+    % - : negation
+    % *, /, \ : all multiplication and division
+    % +, - : addition and subtraction
+    
+% Practice: Think about what each of the below expressions would evaluate
+% to
+
+    1\2
+    -5^2
+    (-5)^2
+    10 - 6/2
+    5*4/3*2 % Each operator here has equal precedence
+    
+    
+    
+    
+    
     
     
     
