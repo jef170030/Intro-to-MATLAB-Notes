@@ -1,4 +1,4 @@
-              
+          
                % 1.2 - THE MATLAB DESKTOP ENVIRONMENT
 
 % To the left of the Command Window is the Current Folder Window. This is

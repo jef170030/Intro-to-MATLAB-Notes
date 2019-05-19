@@ -1,5 +1,5 @@
 
-              % 1.3 - VARIABLES AND ASSIGNMENT STATEMENTS
+            % Section 1.3 - VARIABLES AND ASSIGNMENT STATEMENTS
 
 % Variables, which are showed in the Workspace Window (along with their
 % corresponding values), can be created using an assignment statement. The
