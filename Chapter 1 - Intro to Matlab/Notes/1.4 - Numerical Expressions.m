@@ -1,4 +1,4 @@
-                   
+                 
                     % 1.4 - NUMERICAL EXPRESSIONS
                    
 % Idea: expressions can be created using values, variables, operators,
@@ -59,4 +59,17 @@ format compact
     % * : multiplication
     % / : division by (10/5 == 2)
     % \ : division into (5\10 == 2)
-    % ^ : exponentiation (5^2 == 25)     
+    % ^ : exponentiation (5^2 == 25)  
+    
+% In addition to displaying numbers with decimal points, numbers can also
+% be shown in scientific or exponential notation (so here, "e" means
+% exponent raised to the power 10):
+
+    2 * 10^4
+    2e4
+    
+    
+    
+    
+    
+    
